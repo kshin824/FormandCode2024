@@ -1,61 +1,49 @@
 /* CSS files add styling rules to your content */
 
 body {
-/* PROJECT TITLES */
-font-family: 'Montserrat';
-  color:#096e7f;
-  font-size:20pt
+  /* PROJECT TITLES */
+  font-family: 'Montserrat';
+  color: #096e7f;
+  font-size: 20pt;
   margin: 2em;
   width: 100%;
   height: 100%;
-background: #c1f0ff
+  background: #c1f0ff;
 }
 
-a{
-
-  font-size: 18px;
-
-  }
-  #cloudSize{
- width:200px;
- height: auto;
- margin-left: 20%;
- 
+a {
+  font-size: 24px;
 }
 
-p{
-
-font-family: 'Comfortaa', sans-serif;
+p {
+  font-family: 'Comfortaa', sans-serif;
 }
 
 /* KATIE SHIN WEBSITE TITLE */
 
 h1 {
- 
   color: #63b0bd;
   font-size: 60pt;
- font-family: 'Montserrat';
- font-weight: lighter;
- margin-left: 2%;
- margin-top: 2%;
+  font-family: 'Montserrat';
+  font-weight: lighter;
+  margin-left: 2%;
+  margin-top: 2%;
 }
-.special-h2{
-  margin-top:0;
-    text-align: center
 
-img src
-
+.special-h2 {
+  margin-top: 0;
+  text-align: center;
 }
-/*PAGE TITLES*/
+
+/* PAGE TITLES */
+
 h2 {
-  font-size: 20pt;
-  color: #096e7f
-font-family: 'Montserrat';
- font-weight: lighter;
-margin-left: 85%;
-margin-top: 30%;
-
-/*   margin-top:0; */
+  font-size: 40pt;
+  color: #096e7f;
+  font-family: 'Montserrat';
+  font-weight: lighter;
+  margin-left: 0%;
+  margin-top: 30%;
 }
 
 button {
@@ -65,7 +53,7 @@ button {
   color: white;
   padding: 10px 10px;
   width: 100%;
-  /*   text-align: center; */
+  /* text-align: center; */
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -83,7 +71,6 @@ p {
   padding: 1% 1% 1% 0;
   float: left;
   display: inline-block;
-  /*   background-color: red; */
 }
 
 .center {
@@ -106,7 +93,6 @@ p {
   height: 100%;
   display: inline-block;
   float: left;
-  /*     background-color:red; */
 }
 
 .content {
@@ -114,7 +100,6 @@ p {
   width: 50%;
   display: inline-block;
   float: left;
-  /*   background-color:yellow; */
 }
 
 ul {
@@ -135,12 +120,12 @@ li.bullet {
 }
 
 li.bullet a {
-  color: purple;
+  color: deepskyblue;
 }
 
 li a {
-  color: greenyellow;
-  /*   text-decoration: none; */
+  color: dodgerblue;
+  /* text-decoration: none; */
 }
 
 iframe {
@@ -148,7 +133,7 @@ iframe {
   padding: 0;
   border: none;
   width: 100%;
-  /*   height: 400px; */
+  /* height: 400px; */
   display: inline-block;
   float: left;
   margin-bottom: 2%;
@@ -162,117 +147,39 @@ iframe {
 }
 
 img {
-  height: 400px;
+  height: 600px;
   display: inline-block;
   float: left;
   margin-bottom: 2%;
   margin-right: 2%;
 }
 
-body .gist .gist-file {
-  margin-bottom: 0;
-  border: 1px dashed #adb5bd;
-  border-radius: 0;
+.cloudSize1 {
+  width: 300px;
+  height: auto;
+  margin-left: 20%;
 }
 
-body .gist .gist-data {
-  border-bottom: none;
-  border-radius: 0;
-  background-color: #f1f3f5;
+.cloudSize2 {
+  width: 200px;
+  height: auto;
+  margin-left: 20%;
 }
 
-body .gist .blob-wrapper {
-  border-radius: 0;
+.cloudSize3 {
+  width: 350px;
+  height: auto;
+  margin-left: 20%;
 }
 
-body .gist .highlight {
-  background-color: transparent;
-  font-family: "Droid Sans Mono", monospace;
-  font-size: 14px;
+.cloudSize4 {
+  width: 180px;
+  height: auto;
+  margin-left: 5%;
 }
 
-body .gist .highlight td {
-  padding: 5px 15px !important;
-  line-height: 1;
-  font-family: inherit;
-  font-size: inherit;
-}
-
-body .gist tr:first-child td {
-  padding-top: 15px !important;
-}
-
-body .gist tr:last-child td {
-  padding-bottom: 15px !important;
-}
-
-body .gist .blob-num {
-  color: #ced4da;
-  background-color: #495057;
-  pointer-events: none;
-}
-
-body .gist .gist-meta {
-  display: none;
-}
-
-.nav-link {
-  font-size: 18px;
-  line-height: 27px;
-  cursor: pointer;
-}
-.nav-link a,
-.nav-link a:visited {
-  color: black;
-  text-decoration: none;
-}
-
-#toggle {
-  display: none;
-}
-
-@media only screen and (max-width: 600px) {
-  body {
-    font-family: "Inconsolata", monospace;
-    margin: 1%;
-    width: 98%;
-    height: 100%;
-  }
-  .nav {
-    width: 100%;
-  }
-  .content {
-    width: 100%;
-    float: left;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-.myBox {
-  /*   background: red; */
-
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-
-  border: 1px solid black;
-}
-
-.fullwidth {
-  width: 100%;
-  float: left;
-}
-
-.nav{
-  display: none;
+.cloudSize5 {
+  width: 220px;
+  height: auto;
+  margin-left: 20%;
 }
